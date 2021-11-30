@@ -21,7 +21,7 @@ The ranked documents (runs) and the qrels of **_Touché Task 1: Argument Retriev
 
 Save the input file as **_input_file.csv_** in the same folder and the main.py.
 
-# How to Run
+# How to Run Unfairness Measures
 
 The code in the **_main.py_** file shows how to use the unfairness evaluation functions.
 
