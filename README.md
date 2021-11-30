@@ -6,18 +6,18 @@ Using the official runs of the argument retrieval task Ttouché at CLEF 2020, as
 
 # Run Structure
 
-input file structure format:
+Input file structure format:
 
-- topic : topic number
-- stance : stance of the argument PRO/CON
-- id : document id
-- rank : rank position
-- score : As provided by the retriever
-- group_name : Group name (can be any name provided by the participants of the evaluation campaign)
-- system_name : System name (can be any name provided by the participants of the evaluation campaign)
-- protected_group : The stance which has the minimum representation for the topic.
-- pro_count : The number of PRO stances for the topic in qrel
-- con_count : The number of CON stances for the topic in qrel
+- **topic** : topic number.
+- **stance** : stance of the argument PRO/CON.
+- **id** : document id.
+- **rank** : rank position.
+- **score** : As provided by the retriever.
+- **group_name** : Group name (can be any name provided by the participants of the evaluation campaign).
+- **system_name** : System name (can be any name provided by the participants of the evaluation campaign).
+- **protected_group** : The stance which has the minimum representation for the topic.
+- **pro_count** : The number of PRO stances for the topic in qrel.
+- **con_count** : The number of CON stances for the topic in qrel.
 
 
 
