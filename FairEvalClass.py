@@ -2,9 +2,14 @@ import pandas as pd
 import math
 from scipy.special import rel_entr
 
+
 class rND():
 
-    def rND_fairness_ranking_calculation(self, ranking_df):
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def rND_fairness_ranking_calculation(ranking_df):
 
         pro_count = list(ranking_df['pro_count'].unique())[0]
         con_count = list(ranking_df['con_count'].unique())[0]
@@ -41,7 +46,11 @@ class rND():
 
 class rKL():
 
-    def rKL_fairness_ranking_calculation(self, ranking_df):
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def rKL_fairness_ranking_calculation(ranking_df):
         protected_group = list(ranking_df['protected_group'].unique())[0]
         pro_count = list(ranking_df['pro_count'].unique())[0]
         con_count = list(ranking_df['con_count'].unique())[0]
@@ -89,7 +98,8 @@ class rKL():
 
 class rRD():
 
-    def rRD_fairness_ranking_calculation(self, ranking_df):
+    @staticmethod
+    def rRD_fairness_ranking_calculation(ranking_df):
 
         pro_count = list(ranking_df['pro_count'].unique())[0]
         con_count = list(ranking_df['con_count'].unique())[0]
