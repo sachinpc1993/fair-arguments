@@ -21,6 +21,8 @@ Save the input file as input_file.csv in the same folder and the main.py.
 
 # How to Run
 
+The code in the main.py file shows how to use the unfairness evaluation functions.
+
 `python main.py`
 
 Output file 'System_Unfairness.csv' will be generated in the same folder as the main.py
