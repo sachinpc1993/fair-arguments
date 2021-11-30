@@ -19,7 +19,7 @@ The ranked documents (runs) and the qrels of **_Touché Task 1: Argument Retriev
 - **pro_count** : The number of PRO stances for the topic in qrel.
 - **con_count** : The number of CON stances for the topic in qrel.
 
-Save the input file as **_input_file.csv_** in the same folder and the main.py.
+Save the input file as **_input_file.csv_** in the same folder as the main.py.
 
 # How to Run Unfairness Measures
 
