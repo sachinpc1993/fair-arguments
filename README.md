@@ -9,13 +9,13 @@ Using the official runs of the argument retrieval task Touché at CLEF 2020, as 
 The ranked documents (runs) and the qrels of **_Touché Task 1: Argument Retrieval for Controversial Questions_** used in this study are available at https://webis.de/events/touche-20/shared-task-1.html#data.
 
 - **topic** : topic number.
-- **stance** : stance of the argument PRO/CON.
+- **stance** : stance of the argument PRO/CON (extracted from the corpus for each topic-document pair).
 - **id** : document id.
 - **rank** : rank position.
 - **score** : As provided by the retriever.
 - **group_name** : Group name (can be any name provided by the participants of the evaluation campaign).
 - **system_name** : System name (can be any name provided by the participants of the evaluation campaign).
-- **protected_group** : The stance which has the minimum representation for the topic.
+- **protected_group** : The stance which has the minimum representation for the topic (extracted from the qrel for each topic).
 - **pro_count** : The number of PRO stances for the topic in qrel.
 - **con_count** : The number of CON stances for the topic in qrel.
 
