@@ -23,7 +23,7 @@ Save the input file as **_input_file.csv_** in the same folder and the main.py.
 
 # How to Run Unfairness Measures
 
-The code in the **_main.py_** file shows how to use the unfairness evaluation functions.
+The code in the **_main.py_** file shows how to use the unfairness evaluation functions. Running **_main.py_** will generate all the unfairness measures for each system-topic pair. 
 
 `python main.py`
 
